@@ -7,7 +7,7 @@ namespace MinimalApiCrud.Factory
     {
         public IDbConnection SqlConnection()
         {
-            return new SqlConnection("Server=localhost; Database=CarDataBase; User=sa; Password=Rafa010203; Trusted_Connection=False; TrustServerCertificate=True;");
+            return new SqlConnection("Server=localhost; Database=CarDataBase; User=sa; Password=010203; Trusted_Connection=False; TrustServerCertificate=True;");
         }
     }
 }
